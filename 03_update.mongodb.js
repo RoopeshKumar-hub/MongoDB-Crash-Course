@@ -9,6 +9,7 @@ use("ecommerce");
 // { category: "Electronics" },
 // {$inc: {stock: 11}})
 
+
 db.products.updateOne(
 { name: "Wireless Mouse" },
 { $push: { tags: "Mouse" } }
